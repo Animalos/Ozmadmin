@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-dropdown',
+  selector: 'ozma-dropdown-component',
   templateUrl: './dropdown.component.html',
   styleUrls: ['./dropdown.component.scss']
 })
@@ -11,5 +11,10 @@ export class DropdownComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+
+  dropdownListValues: any[];
+
+  selectedDropdownValue: any;
 
 }

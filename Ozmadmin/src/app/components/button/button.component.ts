@@ -1,8 +1,7 @@
-import { Component, Input, OnInit, Output } from '@angular/core';
-import { EventEmitter } from 'stream';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'ozma-button',
+  selector: 'ozma-button-component',
   templateUrl: './button.component.html',
   styleUrls: ['./button.component.scss']
 })
@@ -10,7 +9,7 @@ export class ButtonComponent implements OnInit {
   @Input() classValue: string = "p-button-primary";
   @Input() labelValue: string = "Label";
 
-  @Output() emitClickevent: EventEmitter = new EventEmitter();
+  @Output() emitClickevent: EventEmitter<any> = new EventEmitter();
   constructor() { }
 
   ngOnInit(): void {

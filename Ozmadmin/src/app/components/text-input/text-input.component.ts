@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-text-input',
+  selector: 'ozma-text-input-component',
   templateUrl: './text-input.component.html',
   styleUrls: ['./text-input.component.scss']
 })

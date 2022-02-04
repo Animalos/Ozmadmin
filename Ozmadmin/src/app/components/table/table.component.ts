@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-table',
+  selector: 'ozma-table-component',
   templateUrl: './table.component.html',
   styleUrls: ['./table.component.scss']
 })
